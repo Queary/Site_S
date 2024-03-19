@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#fon{
+  width:100%;
+}
+
+header{
+  width:60%;
+  header:25%;
+  background-color: #23282b;
+  margin-top:2%;
+  margin-left:20%;
+  margin-bottom:30%;
+  float:left;
+  color:white;
+  box-shadow: 0 0 10px rgba(0,0,0,16);
+  padding:1%;
+}
+
+header ol{
+  width:100%;
+  height:100%;
+  text-decoration:none ;
+}
+
+header ol li{
+  width:2%;
+  height:100%;
+  padding:1.55%;
+  background-color:#34393b;
+  list-style:none;
+  margin-left:15px;
+  text-align:center;
+  display:inline;
+  box-shadow: 0 0 10px rgba(0,0,0,16);
+}
+
+header ol li:hover{
+  background:white;
+  color:black;
+}
+
+header ol li a{
+  text-decoration-line: none;
+  text-decoration-style: none;
+  color:inherit;
+}
+
+body{
+  background-image: url(img/fon4.jpg);
+  background-size:100%;
+  background-attachment: fixed;
+  background-color:#b2b2b2;
+}
+
+#mainblock{
+  width:calc(50% - 10%);
+  min-height:calc(350px);
+  padding:10%;
+  background-color: #23282b;
+  /* margin-top:2%; */
+  margin-left:20%;
+  margin-bottom:10%;
+  display:block;
+  color:#f5f5f5;
+  float:left;
+  box-shadow: 0 0 10px rgba(0,0,0,16);
+}
+
+.block{
+  width:127%;
+  height: 10%;
+  background:#121212;
+  margin-left: -15%;
+  box-shadow: 0 0 10px rgba(1,2,3,4);
+  margin-top:11%;
+  margin-bottom:11%;
+  padding-bottom:3%;
+  padding-left:3%;
+  padding-right:1%;
+  font-size:1.2em;
+  color:#ababab;
+  text-align: center;
+}
+
+
+
+
+.block p{
+text-align: center;
+}
+
+.block hr{
+  margin-left:25%;
+  margin-bottom:5%;
+}
+
+.block img{
+  width:90%;
+}
+
+.block ol{
+  margin-left:6%;
+  list-style:none;
+}
+
+.block button, .block a{
+  width:12%;
+  height:6%;
+  margin-left:75%;
+  margin-bottom:5%;
+  border-radius:1000px;
+  color:white;
+  text-decoration-line: none;
+  background-color: darkgreen;
+  padding:1%;
+}
+footer{
+  width:calc(60% - 10%);
+  height:calc(150px - 4%);
+  padding-left:5%;
+  padding-right:5%;
+  background-color: #23282b;
+  /* margin-top:2%; */
+  margin-left:20%;
+  display:block;
+  color:#f5f5f5;
+  float:left;
+  box-shadow: 0 0 10px rgba(0,0,0,16);
+  padding:4%
+}
+
+footer span{
+  margin-left:64%;]
+}
